@@ -5,5 +5,12 @@ export const UPDATE_PROFILE = "UPDATE_PROFILE";
 export const AUTH_SET_LOADING = "AUTH_SET_LOADING";
 export const AUTH_NOTIFICATION = "AUTH_NOTIFICATION";
 
-export const Get_Product="GET_PRODUCT";
+export const Get_Product = "GET_PRODUCT";
+export const Add_TO_CART = "Add_TO_CART";
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const INCREMENT_CART_ITEM = "INCREMENT_CART_ITEM";
+export const DECREMENT_CART_ITEM = "DECREMENT_CART_ITEM";
+export const Add_TO_CART_WITH_QUANTITY = "Add_TO_CART_WITH_QUANTITY";
+export const REMOVE_ITEM_FROM_CART = 'REMOVE_ITEM_FROM_CART';
+
 

@@ -107,3 +107,39 @@ footer {
   color: rgb(19, 19, 19);
   font-size: 13.4px;
 }
+
+/* categories button */
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 2.5rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #ddd;
+  background-size: 400%;
+  color: #111111;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+.ScrollBar::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+/* Handle */
+.ScrollBar::-webkit-scrollbar-corner {
+  background: #888; /* color of the scrollbar handle */
+}
+
+/* Handle on hover */
+.ScrollBar::-webkit-scrollbar-corner:hover {
+  background: #555; /* color of the scrollbar handle on hover */
+}
